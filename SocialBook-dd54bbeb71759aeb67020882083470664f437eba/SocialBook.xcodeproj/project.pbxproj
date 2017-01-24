@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2797DF911DF7307800A8E8A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2797DF901DF7307800A8E8A8 /* AppDelegate.swift */; };
+		2797DF931DF7307800A8E8A8 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2797DF921DF7307800A8E8A8 /* SignInVC.swift */; };
+		2797DF961DF7307800A8E8A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2797DF941DF7307800A8E8A8 /* Main.storyboard */; };
+		2797DF981DF7307800A8E8A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2797DF971DF7307800A8E8A8 /* Assets.xcassets */; };
+		2797DF9B1DF7307800A8E8A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2797DF991DF7307800A8E8A8 /* LaunchScreen.storyboard */; };
+		2797DFA31DF730D500A8E8A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2797DFA21DF730D500A8E8A8 /* GoogleService-Info.plist */; };
+		2797DFD71DF76BCF00A8E8A8 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2797DFD61DF76BCF00A8E8A8 /* TopView.swift */; };
+		2797DFD91DF76C6B00A8E8A8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2797DFD81DF76C6B00A8E8A8 /* Constants.swift */; };
+		2797DFDB1DF76F3200A8E8A8 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2797DFDA1DF76F3200A8E8A8 /* RoundBtn.swift */; };
+		2797DFDD1DF7715300A8E8A8 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2797DFDC1DF7715300A8E8A8 /* TextField.swift */; };
+		2797DFDF1DF772F300A8E8A8 /* SignBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2797DFDE1DF772F300A8E8A8 /* SignBtn.swift */; };
+		2797DFE11DF7750900A8E8A8 /* open_book_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2797DFE01DF7750900A8E8A8 /* open_book_icon.png */; };
+		D4CE3FAF0FC15308DA9DA060 /* Pods_SocialBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EDFE7F4147DD5A6F0C6141 /* Pods_SocialBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1936B9C73504FA619ED90DF8 /* Pods-SocialBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialBook/Pods-SocialBook.debug.xcconfig"; sourceTree = "<group>"; };
+		24EDFE7F4147DD5A6F0C6141 /* Pods_SocialBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2797DF8D1DF7307800A8E8A8 /* SocialBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2797DF901DF7307800A8E8A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2797DF921DF7307800A8E8A8 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		2797DF951DF7307800A8E8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2797DF971DF7307800A8E8A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2797DF9A1DF7307800A8E8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2797DF9C1DF7307800A8E8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2797DFA21DF730D500A8E8A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2797DFD61DF76BCF00A8E8A8 /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		2797DFD81DF76C6B00A8E8A8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2797DFDA1DF76F3200A8E8A8 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		2797DFDC1DF7715300A8E8A8 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		2797DFDE1DF772F300A8E8A8 /* SignBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignBtn.swift; sourceTree = "<group>"; };
+		2797DFE01DF7750900A8E8A8 /* open_book_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open_book_icon.png; sourceTree = "<group>"; };
+		27E434CF1DF8338B00508E19 /* SocialBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialBook.entitlements; sourceTree = "<group>"; };
+		432EC576BA1D7C8108C5039B /* Pods-SocialBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialBook/Pods-SocialBook.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2797DF8A1DF7307800A8E8A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CE3FAF0FC15308DA9DA060 /* Pods_SocialBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B486016BE0E9C500E1DE3E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1936B9C73504FA619ED90DF8 /* Pods-SocialBook.debug.xcconfig */,
+				432EC576BA1D7C8108C5039B /* Pods-SocialBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2797DF841DF7307800A8E8A8 = {
+			isa = PBXGroup;
+			children = (
+				2797DF8F1DF7307800A8E8A8 /* SocialBook */,
+				2797DF8E1DF7307800A8E8A8 /* Products */,
+				0B486016BE0E9C500E1DE3E4 /* Pods */,
+				6E03F0580434F54633247E9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2797DF8E1DF7307800A8E8A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2797DF8D1DF7307800A8E8A8 /* SocialBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2797DF8F1DF7307800A8E8A8 /* SocialBook */ = {
+			isa = PBXGroup;
+			children = (
+				27E434CF1DF8338B00508E19 /* SocialBook.entitlements */,
+				2797DFA81DF733D800A8E8A8 /* Constants */,
+				2797DFA51DF733BB00A8E8A8 /* View */,
+				2797DFA41DF733AF00A8E8A8 /* Controller */,
+				2797DF901DF7307800A8E8A8 /* AppDelegate.swift */,
+				2797DF941DF7307800A8E8A8 /* Main.storyboard */,
+				2797DF971DF7307800A8E8A8 /* Assets.xcassets */,
+				2797DFE01DF7750900A8E8A8 /* open_book_icon.png */,
+				2797DF991DF7307800A8E8A8 /* LaunchScreen.storyboard */,
+				2797DF9C1DF7307800A8E8A8 /* Info.plist */,
+				2797DFA21DF730D500A8E8A8 /* GoogleService-Info.plist */,
+			);
+			path = SocialBook;
+			sourceTree = "<group>";
+		};
+		2797DFA41DF733AF00A8E8A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2797DF921DF7307800A8E8A8 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2797DFA51DF733BB00A8E8A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2797DFD61DF76BCF00A8E8A8 /* TopView.swift */,
+				2797DFDA1DF76F3200A8E8A8 /* RoundBtn.swift */,
+				2797DFDC1DF7715300A8E8A8 /* TextField.swift */,
+				2797DFDE1DF772F300A8E8A8 /* SignBtn.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2797DFA81DF733D800A8E8A8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2797DFD81DF76C6B00A8E8A8 /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		6E03F0580434F54633247E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24EDFE7F4147DD5A6F0C6141 /* Pods_SocialBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2797DF8C1DF7307800A8E8A8 /* SocialBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2797DF9F1DF7307800A8E8A8 /* Build configuration list for PBXNativeTarget "SocialBook" */;
+			buildPhases = (
+				B313ECFA075C3AF29D625389 /* [CP] Check Pods Manifest.lock */,
+				2797DF891DF7307800A8E8A8 /* Sources */,
+				2797DF8A1DF7307800A8E8A8 /* Frameworks */,
+				2797DF8B1DF7307800A8E8A8 /* Resources */,
+				46456FF7CBF101F442DC93BB /* [CP] Embed Pods Frameworks */,
+				85FA4DA4FB8D4B073040E75B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialBook;
+			productName = SocialBook;
+			productReference = 2797DF8D1DF7307800A8E8A8 /* SocialBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2797DF851DF7307800A8E8A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Chappy-App";
+				TargetAttributes = {
+					2797DF8C1DF7307800A8E8A8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4WU9L65MXB;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2797DF881DF7307800A8E8A8 /* Build configuration list for PBXProject "SocialBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2797DF841DF7307800A8E8A8;
+			productRefGroup = 2797DF8E1DF7307800A8E8A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2797DF8C1DF7307800A8E8A8 /* SocialBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2797DF8B1DF7307800A8E8A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2797DF9B1DF7307800A8E8A8 /* LaunchScreen.storyboard in Resources */,
+				2797DF981DF7307800A8E8A8 /* Assets.xcassets in Resources */,
+				2797DFE11DF7750900A8E8A8 /* open_book_icon.png in Resources */,
+				2797DF961DF7307800A8E8A8 /* Main.storyboard in Resources */,
+				2797DFA31DF730D500A8E8A8 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46456FF7CBF101F442DC93BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialBook/Pods-SocialBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FA4DA4FB8D4B073040E75B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialBook/Pods-SocialBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B313ECFA075C3AF29D625389 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2797DF891DF7307800A8E8A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2797DF931DF7307800A8E8A8 /* SignInVC.swift in Sources */,
+				2797DFDB1DF76F3200A8E8A8 /* RoundBtn.swift in Sources */,
+				2797DFD71DF76BCF00A8E8A8 /* TopView.swift in Sources */,
+				2797DFDD1DF7715300A8E8A8 /* TextField.swift in Sources */,
+				2797DF911DF7307800A8E8A8 /* AppDelegate.swift in Sources */,
+				2797DFD91DF76C6B00A8E8A8 /* Constants.swift in Sources */,
+				2797DFDF1DF772F300A8E8A8 /* SignBtn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2797DF941DF7307800A8E8A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2797DF951DF7307800A8E8A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2797DF991DF7307800A8E8A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2797DF9A1DF7307800A8E8A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2797DF9D1DF7307800A8E8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2797DF9E1DF7307800A8E8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2797DFA01DF7307800A8E8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1936B9C73504FA619ED90DF8 /* Pods-SocialBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocialBook/SocialBook.entitlements;
+				DEVELOPMENT_TEAM = 4WU9L65MXB;
+				INFOPLIST_FILE = SocialBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Chappy-App.SocialBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2797DFA11DF7307800A8E8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432EC576BA1D7C8108C5039B /* Pods-SocialBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocialBook/SocialBook.entitlements;
+				DEVELOPMENT_TEAM = 4WU9L65MXB;
+				INFOPLIST_FILE = SocialBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Chappy-App.SocialBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2797DF881DF7307800A8E8A8 /* Build configuration list for PBXProject "SocialBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2797DF9D1DF7307800A8E8A8 /* Debug */,
+				2797DF9E1DF7307800A8E8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2797DF9F1DF7307800A8E8A8 /* Build configuration list for PBXNativeTarget "SocialBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2797DFA01DF7307800A8E8A8 /* Debug */,
+				2797DFA11DF7307800A8E8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2797DF851DF7307800A8E8A8 /* Project object */;
+}
